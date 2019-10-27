@@ -1,6 +1,6 @@
 # Description
 
-# Spring boot application to do CRUD.
+# Sample spring boot application to do CRUD.
 
 # Tool and Tech stack used.
   1. STS
