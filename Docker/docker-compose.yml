@@ -1,0 +1,12 @@
+services:
+  retail-service:
+    container_name: retail_app
+    entrypoint: /home/app/StartService.sh
+    image: app:1
+    environment:
+       CQLSH_NO_BUNDLED: 'true'
+    networks:
+      default: null
+    ports:
+    - 8082:8082
+version: '3.2'
