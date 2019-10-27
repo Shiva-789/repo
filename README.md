@@ -1,6 +1,6 @@
 # Description
 
-# Sample spring boot application to do CRUD.
+# Sample MyRetail spring boot application to do CRUD. 
 
 # Tool and Tech stack used.
   1. STS
@@ -47,5 +47,7 @@
    4. Replace imagename from compose file to the image name used to build in this case it will be imagename:version
    5. Start the container using below command
       - docker-compose up
-   6. We can access the api endpoint by using http://localhost:8082 
+   6. We can access the api endpoint by using http://localhost:8082
+  
+  Note - 
 
