@@ -36,4 +36,13 @@
      - brew services start cassandra
   3. Command to enter cassandra shell
      - /usr/local/bin/cqlsh
+     
+ # Steps to build image
+   1. Navigate to Docker folder.
+   2. Command to build image.
+      - docker build -f Dockerfile -t imagename:version
+      Running docker build behind proxy
+      -  docker build --build-arg http_proxy=http://<ip>:<port> --build-arg https_proxy=https://<ip>:<port> -f Dockerfile -t    
+         imagename:version .
+   3. 
 
