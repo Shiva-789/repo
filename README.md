@@ -21,7 +21,7 @@
   
 # App Description.
   1. Sample application to do simple crud operations on cassandar database.
-  2. Base url http://<ip>:<port>/product
+  2. Base url http://IP:PORT/product
   3. POST api to save product data.
   4. GET api to get all products in the database.
   5. GET/id api to get specific product data.
@@ -40,7 +40,7 @@
    2. Command to build image.
       - docker build -f Dockerfile -t imagename:version
    3. Running docker build behind proxy
-      -  docker build --build-arg http_proxy=http://<ip>:<port> --build-arg https_proxy=https://<ip>:<port> -f Dockerfile -t    
+      -  docker build --build-arg http_proxy=http://IP:PORT --build-arg https_proxy=https://IP:PORT -f Dockerfile -t    
          imagename:version .
    4. Replace imagename from compose file to the image name used to build in this case it will be imagename:version
    5. Start the container using below command
