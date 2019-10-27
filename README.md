@@ -1,6 +1,4 @@
-# Description
-
-# Sample MyRetail spring boot application to do CRUD. 
+# Sample MyRetail App based on spring boot to do CRUD ops. 
 
 # Tool and Tech stack used.
   1. STS
