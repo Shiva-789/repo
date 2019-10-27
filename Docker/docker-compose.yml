@@ -2,7 +2,7 @@ services:
   retail-service:
     container_name: retail_app
     entrypoint: /home/app/StartService.sh
-    image: app:1
+    image: imagename
     environment:
        CQLSH_NO_BUNDLED: 'true'
     networks:
