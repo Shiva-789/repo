@@ -44,5 +44,8 @@
       Running docker build behind proxy
       -  docker build --build-arg http_proxy=http://<ip>:<port> --build-arg https_proxy=https://<ip>:<port> -f Dockerfile -t    
          imagename:version .
-   3. 
+   3. Replace imagename from compose file to the image name used to build in this case it will be imagename:version
+   4. Start the container using below command
+      - docker-compose up
+   5. We can access the api endpoint by using http://localhost:8082 
 
