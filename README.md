@@ -49,5 +49,10 @@
       - docker-compose up
    6. We can access the api endpoint by using http://localhost:8082
   
-  Note - 
+   # Consideration
+   1. As it is a product sensitive information we can introduce authentication mechanism for security.
+   2. We can use dockers to avoide deployment issues.
+   
+   # Note - 
+   - It is a quick prototype, not full fledged app.
 
